@@ -1,5 +1,5 @@
 FROM jfloff/alpine-python:2.7-onbuild
-MAINTAINER Muhammad Fahrizal Rahman "riesal@gmail.com"
+MAINTAINER Muhammad Fahrizal Rahman "riesal[at]gmail[dot]com"
 RUN apk update
 RUN apk add curl net-tools wget drill
 COPY . /app
